@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+    body{
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+      font-family: 'Noto Serif', serif;
+      max-width: 1200px;
+      /* background-image: url("mongo.png"); */
+      background-color:  #d2e0d3;
+      background-repeat: no-repeat;
+      
+    }
+    p, h1, h2, h3, a, ul{
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      color: #252525;
+    }
+
+    /* nav & footer styles */
+    nav{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #7F803E;
+      text-transform: uppercase;
+    }
+    nav ul{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    nav li{
+      list-style-type: none;
+      margin-left: 20px;
+      font-weight: bolder;
+    }
+    nav li a{
+      font-weight: bolder;
+    }
+    nav h1{
+      font-size: 3em;
+      color: #596854;
+    }
+    nav p, nav a{
+      color: #9fa136 ;
+      font-weight: 300;
+    }
+    footer{
+      color: #5D7F61;
+      text-align: center;
+      margin: 30px auto 20px;
+    }
+    h2{
+      margin-bottom: 40px;
+    }
+    h3{
+      text-transform: capitalize;
+      margin-bottom: 8px;
+    }
+    .content{
+      margin-left: 20px;
+    }
+    .content h3{
+      color: #9fa136;
+    }
+
+    /* index styles */
+    .blogs a{
+      display: block;
+      margin: 40px 0;
+      padding-left: 30px;
+      border-width: 60px;
+      padding:10px;
+      border-radius: 2rem;
+      background-color:#B0BEC5;
+      border: 3px solid #5D7F61;
+    }
+    .blogs a:hover h3{
+      color: #5D7F61;
+    }
+
+    /* details styles */
+    .details{
+      position: relative;
+    }
+    .delete{
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-radius: 50%;
+      padding: 8px;
+    }
+    .operation-btn{
+      margin-left:40px;
+    }
+    button {
+      border:none;
+      font-size: larger;
+      cursor: pointer;
+      transition-duration: 0.4s;
+      height:40px;
+    }
+    
+    button:hover {
+      background-color: #303631; /* Green */
+      color: white;
+    }
+    .delete:hover{
+      cursor: pointer;
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    }
+
+    /* create styles */
+    .create-blog form{
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .create-blog input,
+    .create-blog textarea{
+      display: block;
+      width: 100%;
+      margin: 5px 0;
+      padding: 8px;
+    }
+    .Input-text {
+      display: block;
+      margin: 0;
+      padding: var(--inputPaddingV) var(--inputPaddingH);
+      color: inherit;
+      width: 100%;
+      font-family: inherit;
+      font-size: var(--inputFontSize);
+      font-weight: inherit;
+      line-height: var(--inputLineHeight);
+      border: none;
+      border-radius: 0.4rem;
+      transition: box-shadow var(--transitionDuration);
+    }
+    
+    .Input-text::placeholder {
+      color: #B0BEC5;
+    }
+    
+    .Input-text:focus {
+      outline: none;
+      box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
+    }
+    
+    .create-blog label{
+      display: block;
+      margin-top: 14px;
+      color: #49684C;
+      font-weight: 550;
+    }
+    .create-blog button{
+      margin-top: 10px;
+      background: rgb(220, 147, 20);
+      color: white;
+      padding: 6px;
+      border: 0;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition-duration: 0.5s;
+    }
+    .create-blog button:hover {
+      background-color: #a75809; /* Green */
+    }
+    .sub{
+      text-align: center;
+    }
+
+    span{
+      font-weight: bolder;
+    }
+
+    
